@@ -1,0 +1,241 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "US_015 Balance populations",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10520000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should go to homePage",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_should_go_to_homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks my Operations link",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_clicks_my_Operations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1063000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks my accounts",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_clicks_manage_accounts()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T18:21:34.329Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should see all account types and balance populated",
+        "description": "",
+        "id": "system-should-allow-user-to-manage-their-account;user-should-see-all-account-types-and-balance-populated",
+        "after": [
+          {
+            "result": {
+              "duration": 758000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1323000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user can see all account types and balance populated",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.can_user_see_all_account_types_and_balance_populated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3114000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user signOut",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_signOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@US15_TC01"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "US_015 Balance populations",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11560000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should go to homePage",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_should_go_to_homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks my Operations link",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_clicks_my_Operations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks my accounts",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_clicks_manage_accounts()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T18:21:52.247Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User can view transaction",
+        "description": "",
+        "id": "system-should-allow-user-to-manage-their-account;user-can-view-transaction",
+        "after": [
+          {
+            "result": {
+              "duration": 715000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5422000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user can see all view transaction",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.can_user_see_all_transaction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3108000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user signOut",
+            "match": {
+              "location": "stepdefinitions.US_15_Step_Definitions.user_signOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@US15_TC02"
+          }
+        ]
+      }
+    ],
+    "name": "System should allow user to manage their account",
+    "description": "",
+    "id": "system-should-allow-user-to-manage-their-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_015Transactions.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

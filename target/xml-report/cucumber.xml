@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="40.981">
+<testcase classname="System should allow user to manage their account" name="User should see all account types and balance populated" time="17.909">
+<system-out><![CDATA[Given User should go to homePage............................................passed
+And user clicks my Operations link..........................................passed
+And user clicks my accounts.................................................passed
+Given user can see all account types and balance populated..................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow user to manage their account" name="User can view transaction" time="22.925">
+<system-out><![CDATA[Given User should go to homePage............................................passed
+And user clicks my Operations link..........................................passed
+And user clicks my accounts.................................................passed
+Given user can see all view transaction.....................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
